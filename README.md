@@ -21,7 +21,8 @@ The code here backs image pre-processing, segmentation, niche/neighborhood analy
 and expression/pathway modules referenced in the IMC tonsil study example.
 
 - **SPACEc — supports “SPACEc Modules of Interest” (p. 15).**<br>
-Line Covers tissue detection, segmentation (Cellpose/DeepCell), per-cell table assembly & normalization, clustering/label transfer, and the platform’s patch-proximity readouts.
+Covers tissue detection, segmentation (Cellpose/DeepCell), per-cell table assembly & normalization,<br>
+clustering/label transfer, and the platform’s patch-proximity readouts.
 
 - **ScProAtlas (external) — supports the “ScProAtlas” section (p. 22).**<br>
 As explained in the paper, ScProAtlas is primarily a website + curated database with results hosted externally; its public codebase is not a clean, importable Python package. I’ve included representative analysis scripts here for traceability (e.g., CellPhoneDB interaction runs, Moran’s-I spatially variable features, and general utilities) even though most logic lives in web services and precomputed tables.
