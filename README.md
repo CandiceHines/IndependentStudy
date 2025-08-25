@@ -31,6 +31,8 @@ As explained in the paper, ScProAtlas is primarily a website + curated database 
 Used throughout for plotting, neighborhood/graph computations, and diversity/statistical<br>
 summaries as described in “SpatialProteomics.”
 
+https://github.com/user-attachments/assets/c20f3f27-f8bf-48a3-bf04-583fed544eea
+
 ❗️IMPORTANT: Each section in the paper that describe a module and its methods/functions point to folder/file paths exactly as they appear here, so you can cross-check a described method with its implementation.
 
 **How to use this repository while reading the paper**
